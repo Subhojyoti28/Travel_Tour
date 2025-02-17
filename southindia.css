@@ -1,0 +1,475 @@
+body{
+    text-align: center;
+    background-color: rgb(0, 0, 0) 
+}
+.fixed{
+    height: 880px;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1540px;
+    z-index: -1;
+}
+.logo{
+  height: 58px;
+  position: fixed;
+  top: 2px;
+  left: 0;
+  width: 10%;
+  z-index: -1;
+  margin-top: 6px;
+  margin-left: px;
+  background-color: black;
+  }
+header {
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  z-index: +1;
+  top: 8px;
+  left: 16px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 200px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+nav ul li a:hover {
+border-radius: 10px;
+background-color: rgba(86, 86, 86, 0.856);
+color: white;
+border: white solid 1px;
+
+}
+/* this is for drop down tour destination*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.922);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.736);
+    z-index: 1;
+    border-radius: 10px;
+    margin-top: 19.5px;
+    margin-left: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover{
+    cursor: pointer;
+}
+.dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(86, 86, 86, 0.856);
+    border-radius: 10px;
+
+}
+/* this is for drop down tour destination*/
+.dropdown-package {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.922);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.736);
+    z-index: 1;
+    border-radius: 10px;
+    margin-top: 19.5px;
+    margin-left: 20px;
+}
+.package:hover .dropdown-package {
+    display: block;
+}
+.package:hover{
+    cursor: pointer;
+}
+.dropdown-package a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-package a:hover {
+    background-color: rgba(86, 86, 86, 0.5);
+    border-radius: 10px;
+}
+/* this is for dropdown myaccount */
+.dropdown-myaccount{
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.922);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.736);
+    z-index: 1;
+    border-radius: 10px;
+    margin-top: 19.5px;
+    margin-left: 20px;
+}
+
+.myaccount:hover .dropdown-myaccount {
+    display: block;
+}
+.myaccount:hover{
+    cursor: pointer;
+}
+.dropdown-myaccount a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-myaccount a:hover {
+    background-color: rgba(86, 86, 86, 0.5);
+    border-radius: 10px;
+}
+        /* Reset some default styles */
+        .north-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        
+        .north-destination {
+            margin-bottom: 2rem;
+            border: white 2px solid;
+            max-width: 400px;
+        }
+        
+        .north-destination img {
+            width: 400px;
+            max-height: 300px;
+            object-fit: cover;
+        }
+        .btn {
+            display: inline-block;
+            background-color: rgb(75, 75, 75);
+            color: #ffffff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 4px;
+            border: white solid 1px;
+            position: relative;
+            bottom: 10px;
+
+        }
+        .btn:hover{
+            background-color: #000000;
+            color: rgb(255, 255, 255);
+        }
+        
+        /* CSS for the banner container */
+        .banner {
+            position: relative;
+            left: 200px;
+            top: 20px;
+            width: 1100px;
+            height: 400px;
+            overflow: hidden;
+            text-align: center;
+          }
+        
+          /* CSS for the banner images */
+          .banner-image {
+            position: absolute;
+            top: 0;
+            left: 10px;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+          }
+        
+          .active {
+            opacity: 1;
+          }
+        
+          /* CSS for the previous and next buttons */
+          .banner-buttons {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 0 20px;
+            box-sizing: border-box;
+          }
+        
+          .banner-buttons button {
+            background: none;
+            border: none;
+            color: #333;
+            font-size: 18px;
+            cursor: pointer;
+          }
+           /* CSS for the banner images */
+           .banner-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+          }
+        
+          .active {
+            opacity: 1;
+          }
+        
+          /* CSS for the previous and next buttons */
+          .banner-buttons {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 0 20px;
+            box-sizing: border-box;
+          }
+        
+          .banner-buttons button {
+            background: none;
+            border: none;
+            color: #000;
+            font-size: 18px;
+            cursor: pointer;
+          }
+        
+          /* CSS for the banner navigation dots */
+          .banner-dots {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        
+          .banner-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: rgba(57, 57, 57, 0.785);
+            margin: 0 5px;
+            cursor: pointer;
+          }
+          .banner-dot.active {
+            background-color: rgba(255, 255, 255, 0.796);
+          }
+          /* End of Banner CSS */
+        
+/* footer start */
+  footer {
+    background-color: rgb(75, 75, 75);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 70px;
+    height: 600px;
+    width: 1340px;
+}
+/* footer span */
+.footer-span1{
+  position: relative;
+  left: 600px;
+  top: 75px;
+}
+
+.footer-span2{
+  position: relative;
+  bottom: 63px;
+  left: 100px;
+
+}
+.footer-span3{
+  position: relative;
+  left: 1100px;
+  bottom: 505px;
+}
+/* footer span end */
+
+/* span1 link start */
+.span1-link{
+    margin-bottom: 10px;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    font-size: 15px;
+    color: #ffffff;
+    position: relative;
+    top: 11px;
+    transition: transform 0.3s ease;
+}
+.span1-link:hover{
+  transform: translate(20px);
+    color: tomato
+}
+/* span1 link end */
+
+/* span2 link start */
+.span2-link{
+  margin-bottom: 10px;
+  display: block;
+  text-decoration: none;
+  text-align: left;
+  font-size: 15px;
+  color: #ffffff;
+  position: relative;
+  bottom: 13px;
+  transition: transform 0.3s ease;
+  
+}
+.span2-link:hover{
+  transform: translate(20px);
+    color: tomato
+}
+/* span2 link end */
+
+/* span3 link start */
+.span3-link {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  text-align: left;
+  font-size: 15px;
+  color: #ffffff;
+  position: relative;
+  bottom: 35px;
+  transition: transform 0.3s ease;
+}
+.span3-link:hover{
+  transform: translate(20px);
+    color: tomato
+}
+/* span3 link end */
+
+/* this is all span heading a tag start */
+.footer-span2-a{
+  color: white; 
+  font-size: 20px;
+  position: relative;
+  right: 37px;
+  bottom: 20px;
+}
+.footer-span1-a{
+  color: white; 
+  font-size: 20px;
+  position: relative;
+  bottom: 43px;
+}
+.footer-span3-a{
+  color: white; 
+  font-size: 20px;
+  position: relative;
+  right: 38px;
+  bottom: 65px;
+}
+/* this is all span heading a tag end */
+
+.span4{
+  color: white;
+  position: relative;
+  bottom: 200px;
+  left: 100px;
+}
+.span5{
+  color: white;
+  position: relative;
+  bottom: 200px;
+  left: 300px;
+}
+.span7{
+  color: white;
+  position: relative;
+  bottom: 200px;
+  left: 500px;
+}
+/* start package css */
+.aside-packages1{
+  color: white; 
+  max-width: 700px; 
+  position: absolute;
+  left: 600px; 
+  top: 908px;
+  text-align: left;
+  font-size: 15px;
+}
+.aside-packages2{
+  color: white; 
+  max-width: 700px; 
+  position: absolute;
+  left: 600px; 
+  top: 1429px;
+  text-align: left;
+  font-size: 15px;
+}
+.aside-packages3{
+  color: white; 
+  max-width: 700px; 
+  position: absolute;
+  left: 600px; 
+  top: 1948px;
+  text-align: left;
+  font-size: 15px;
+}
+.aside-packages4{
+  color: white; 
+  max-width: 700px; 
+  position: absolute;
+  left: 600px; 
+  top: 2469px;
+  text-align: left;
+  font-size: 15px;
+}
+.aside-packages5{
+  color: white; 
+  max-width: 700px; 
+  position: absolute;
+  left: 600px; 
+  top: 3008px;
+  text-align: left;
+  font-size: 15px;
+}
+.aside-packages6{
+  color: white; 
+  max-width: 700px; 
+  position: absolute;
+  left: 600px; 
+  top: 3486px;
+  text-align: left;
+  font-size: 15px;
+}
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="state.css">
+    <title>Wildlife</title>
+</head>
+<body>
+     <header class="headerhome" >
+        <nav class="navhome">
+            <ul class="ulhome">
+                <li><a href="taketrip.html">Home</a></li>
+                <li class="dropdown">
+                    <a>Tour Destinations</a>
+                    <div class="dropdown-content">
+                        <a href="northindia.html">North India</a>
+                        <a href="southindia.html">South India</a>
+                        <a href="eastindia.html">East India</a>
+                        <a href="westindia.html">West India</a>
+                        <a href="centralindia.html">Central India</a>
+                        <a href="norteastindia.html">North East India</a>
+                        <a href="unionteratory.html">Union Teratory</a>
+                    </div>
+                </li>
+                <li class="package">
+                    <a>Tour Packages</a>
+                    <div class="dropdown-package">
+                        <a class="ahome" href="">Wildlife</a>
+                        <a class="ahome" href="">Adventure</a>
+                        <a class="ahome" href="">Honeymoon</a>
+                        <a class="ahome" href="">Beach</a>
+                        <a class="ahome" href="">Pilgrimage</a>
+                        <a class="ahome" href="">Hill Station</a>
+                        <a class="ahome" href="">Heritage Tours</a>
+                        <a class="ahome" href="">Ayurveda Tours</a>
+                        <a class="ahome" href="">Cultural</a>
+                        <a class="ahome" href="">Special Interest</a>
+                    </div>
+                </li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="reviews.html">Customer Reviews</a></li>
+                <li><a href="">login</a></li>
+                <li><a href="">signup</a></li>
+            </ul>
+        </nav>
+    </header>
+    <header>
+        <nav>
+            <ul>
+                <li><a href=""></a>ljdhaksjdk</li>
+                <li><a href=""></a>jaskdjh</li>
+                <li><a href=""></a>diushdifus</li>
+                <li><a href=""></a>Hdiushdifus</li>
+                <li><a href=""></a>Rajdiushdifus</li>
+                <li><a href=""></a>Himacashksj</li>
+            </ul>
+        </nav>
+    </header>
+</body>
+<script>
+    // JavaScript code
+    document.addEventListener('DOMContentLoaded', function() {
+        var dropdowns = document.getElementsByClassName('dropdown');
+        for (var i = 0; i < dropdowns.length; i++) {
+            dropdowns[i].addEventListener('mouseenter', function() {
+                this.querySelector('.dropdown-content').style.display = 'block';
+            });
+            dropdowns[i].addEventListener('mouseleave', function() {
+                this.querySelector('.dropdown-content').style.display = 'none';
+            });
+        }
+    });
+</script>
+<script>
+    // JavaScript code
+    document.addEventListener('DOMContentLoaded', function() {
+        var dropdowns = document.getElementsByClassName('package');
+        for (var i = 0; i < dropdowns.length; i++) {
+            dropdowns[i].addEventListener('mouseenter', function() {
+                this.querySelector('.dropdown-package').style.display = 'block';
+            });
+            dropdowns[i].addEventListener('mouseleave', function() {
+                this.querySelector('.dropdown-package').style.display = 'none';
+            });
+        }
+    });
+</script>
+
+</html>
+   

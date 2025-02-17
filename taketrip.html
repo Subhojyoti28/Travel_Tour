@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="taketrip.css">
+    <script src="taketrip.js"></script>
+    <title>Taketrip</title>
+    <link rel="icon" href="logo.png" type="image/png">
+</head>
+<body>
+     <header><a href="taketrip.html"><img class="logo" src="logo.png" alt="logo image"></a>
+        <nav>
+            <ul>
+                <li class="home"><a href="taketrip.html">Home</a></li>
+                <!-- this is tour destination statr html code -->
+                <li class="dropdown">
+                    <a>Tour Destinations</a>
+                    <div class="dropdown-content">
+                        <a href="northindia.html">North India</a>
+                        <a href="southindia.html">South India</a>
+                        <a href="eastindia.html">East India</a>
+                        <a href="westindia.html">West India</a>
+                        <a href="centralindia.html">Central India</a>
+                        <a href="norteastindia.html">North East India</a>
+                        <a href="unionteratory.html">Union Teratory</a>
+                    </div>
+                </li>
+                <!-- tour destination code end -->
+                <!-- this is tour package start code -->
+                <li class="package">
+                    <a>Tour Packages</a>
+                    <div class="dropdown-package">
+                        <a href="wildlife.html">Wildlife</a>
+                        <a href="">Adventure</a>
+                        <a href="">Honeymoon</a>
+                        <a href="">Beach</a>
+                        <a href="">Pilgrimage</a>
+                        <a href="">Hill Station</a>
+                        <a href="">Heritage Tours</a>
+                        <a href="">Ayurveda Tours</a>
+                        <a href="">Cultural</a>
+                        <a href="">Special Interest</a>
+                        <a style="color: rgb(255, 197, 176); font-size: 15px; background-color:rgba(80, 80, 80, 0.6)" href="">More packages....</a>
+                    </div>
+                </li>
+                <!-- tour package code end -->
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="customerreview.html">Customer Reviews</a></li>
+                <!-- this is my account code start -->
+                <li class="myaccount">
+                    <a>My account</a>
+                    <div class="dropdown-myaccount">
+                        <a href="taketriplogin.html">Login</a>
+                        <a href="taketripsignup.html">Signup</a>
+                    </div>
+                </li>
+                <!-- my account code end -->
+            </ul>
+        </nav>
+    </header>
+<br><br><br><br>
+<!-- banner code start -->
+<div class="banner">
+    <img class="banner-image active" src="banner/banner4.png" alt="image">
+    <img class="banner-image" src="banner/banner2.png" alt="Image 2">
+    <img class="banner-image" src="banner/banner3.png" alt="Image 3">
+    <img class="banner-image" src="banner/banner6.png" alt="Image 4">
+    <img class="banner-image" src="banner/banner5.png" alt="Image 5">
+
+    <div class="banner-buttons">
+      <button onclick="showPreviousImage()" style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">&#10094;</button>
+      <button onclick="showNextImage()" style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">&#10095;</button>
+    </div>
+
+    <div class="banner-dots">
+      <span class="banner-dot active" onclick="goToImage(0)"></span>
+      <span class="banner-dot" onclick="goToImage(1)"></span>
+      <span class="banner-dot" onclick="goToImage(2)"></span>
+      <span class="banner-dot" onclick="goToImage(3)"></span>
+      <span class="banner-dot" onclick="goToImage(4)"></span>
+    </div>
+  </div>
+  <br><br><br><br><br>
+<!-- banner code end -->
+  <div class="" style="color: white; font-size: 90px;">Let us plan you a
+    perfect India Holiday</div>
+    <div class="" style="color: white; font-size: 20px;">Personalised, well-crafted tour packages for best experiences</div>
+    <br><br><br>
+     <!--  Start of Top Trending indian Holiday Destinations-->
+    <h1 style="margin-right: 790px;">Top Trending Indian Holiday Destinations</h1>
+    <div class="slideshow-container">
+      <div class="slide-wrapper">
+        <!--Start of First Slide -->
+        <div class="slide">
+          <img src="image/rajashthan.png" alt="Slide 1">
+          <div class="slide-content">
+            <h2>Rajasthan</h2>
+            <a href="#" class="view-package">View Package</a>
+            <p style="color: white;">40 Tour Package</p>
+          </div>
+        </div>
+        <!-- End of First Slide -->
+        <!-- Start of Second Slide -->
+        <div class="slide">
+          <img src="image/himachal.png" alt="Slide 2">
+          <div class="slide-content">
+            <h2>Himachal</h2>
+            <a href="#" class="view-package">View Package</a>
+            <p style="color: white;">35 Tour Package</p>
+          </div>
+        </div>
+        <!-- End of Second Slide -->
+        <!-- Start of Third Slide -->
+        <div class="slide">
+            <img src="image/kashmir.png" alt="Slide 2">
+            <div class="slide-content">
+              <h2>Kashmir</h2>
+              <a href="#" class="view-package">View Package</a>
+              <p style="color: white;">80 Tour Package</p>
+            </div>
+          </div>
+          <!-- End of Third Slide -->
+          <!-- Start of Fourth Slide -->
+        <div class="slide">
+            <img src="image/sikkim.png" alt="Slide 2">
+            <div class="slide-content">
+              <h2>Sikkim</h2>
+              <a href="#" class="view-package">View Package</a>
+              <p style="color: white;">70 Tour Package</p>
+            </div>
+          </div>
+          <!-- End of Fourth Slide -->
+          <!-- Start of Fith Slide -->
+        <div class="slide">
+            <img src="image/uttarakhand.png" alt="Slide 2">
+            <div class="slide-content">
+              <h2>Uttarakhand</h2>
+              <a href="#" class="view-package">View Package</a>
+              <p style="color: white;">40 Tour Package</p>
+            </div>
+          </div>
+          <!-- End of Fifth Slide -->
+          <!-- Start of Sixth Slide -->
+        <div class="slide">
+            <img src="image/kerala.png" alt="Slide 2">
+            <div class="slide-content">
+              <h2>Kerala</h2>
+              <a href="#" class="view-package">View Package</a>
+              <p style="color: white;">30 Tour Package</p>
+            </div>
+          </div>
+          <!-- End of Sixth Slide -->
+          <!-- Start of Seventh Slide -->
+        <div class="slide">
+            <img src="image/ladakh.png" alt="Slide 2">
+            <div class="slide-content">
+              <h2>Ladakh</h2>
+              <a href="#" class="view-package">View Package</a>
+              <p style="color: white;">25 Tour Package</p>
+            </div>
+          </div>
+          <!-- End of Seventh Slide -->
+          <!-- Start of Eight Slide -->
+        <div class="slide">
+            <img src="image/gujrat.png" alt="Slide 2">
+            <div class="slide-content">
+              <h2>Gujrat</h2>
+              <a href="#" class="view-package">View Package</a>
+              <p style="color: white;">30 Tour Package</p>
+            </div>
+          </div>
+          <!-- End of Eight Slide -->
+          <!-- Start of Ninth Slide -->
+        <div class="slide">
+            <img src="image/tamilnadu.png" alt="Slide 2">
+            <div class="slide-content">
+              <h2>Tamil Nadu</h2>
+              <a href="#" class="view-package">View Package</a>
+              <p style="color: white;">20 Tour Package</p>
+            </div>
+          </div>
+          <!-- End of Ninth Slide -->
+          <!-- Start of Tenth Slide -->
+        <div class="slide">
+            <img src="image/arunachal.png" alt="Slide 2">
+            <div class="slide-content">
+              <h2>Arunachal</h2>
+              <a href="#" class="view-package">View Package</a>
+              <p style="color: white;">25 Tour Package</p>
+            </div>
+          </div>
+          <!-- End of Tenth Slide -->
+      </div>
+    </div>
+     <!--  End ofTop Trending Indian Holiday Destinations-->
+     <br><br><br>
+
+    <!--  Start of Top Trending International Holiday Destinations-->
+    <h1>Top Trending International Holiday Destinations</h1>
+    <div class="slideshow-container">
+      <div class="slide-wrapper">
+        <!--Start of First Slide -->
+        <div class="slide">
+          <img src="image2/dubai.png" alt="Slide 1">
+          <div class="slide-content">
+            <h2>Dubai</h2>
+            <a href="#" class="view-package">View Package</a>
+            <p style="color: white;">20 Tour Package</p>
+          </div>
+        </div>
+        <!-- End of First Slide -->
+        <!-- Start of Second Slide -->
+        <div class="slide">
+          <img src="image2/austrelia.png" alt="Slide 2">
+          <div class="slide-content">
+            <h2>Australia</h2>
+            <a href="#" class="view-package">View Package</a>
+            <p style="color: white;">15 Tour Package</p>
+          </div>
+        </div>
+        <!-- End of Second Slide -->
+        <!-- Start of Third Slide -->
+        <div class="slide">
+            <img src="image2/maldives.png" alt="Slide 2">
+            <div class="slide-content">
+              <h2>Maldives</h2>
+              <a href="#" class="view-package">View Package</a>
+              <p style="color: white;">16 Tour Package</p>
+            </div>
+          </div>
+          <!-- End of Third Slide -->
+          <!-- Start of Fourth Slide -->
+        <div class="slide">
+            <img src="image2/singapore.png" alt="Slide 2">
+            <div class="slide-content">
+              <h2>Singapore</h2>
+              <a href="#" class="view-package">View Package</a>
+              <p style="color: white;">15 Tour Package</p>
+            </div>
+          </div>
+          <!-- End of Fourth Slide -->
+          <!-- Start of Fith Slide -->
+        <div class="slide">
+            <img src="image2/myanmar.png" alt="Slide 2">
+            <div class="slide-content">
+              <h2>Myanmar</h2>
+              <a href="#" class="view-package">View Package</a>
+              <p style="color: white;">11 Tour Package</p>
+            </div>
+          </div>
+          <!-- End of Fifth Slide -->
+          <!-- Start of Sixth Slide -->
+        <div class="slide">
+            <img src="image2/vietnam.png" alt="Slide 2">
+            <div class="slide-content">
+              <h2>Vietnam</h2>
+              <a href="#" class="view-package">View Package</a>
+              <p style="color: white;">7 Tour Package</p>
+            </div>
+          </div>
+          <!-- End of Sixth Slide -->
+          <!-- Start of Seventh Slide -->
+        <div class="slide">
+            <img src="image2/switzerland.png" alt="Slide 2">
+            <div class="slide-content">
+              <h2>Switzerland</h2>
+              <a href="#" class="view-package">View Package</a>
+              <p style="color: white;">7 Tour Package</p>
+            </div>
+          </div>
+          <!-- End of Seventh Slide -->
+          <!-- Start of Eight Slide -->
+        <div class="slide">
+            <img src="image2/nepal.png" alt="Slide 2">
+            <div class="slide-content">
+              <h2>Nepal</h2>
+              <a href="#" class="view-package">View Package</a>
+              <p style="color: white;">12 Tour Package</p>
+            </div>
+          </div>
+          <!-- End of Eight Slide -->
+          <!-- Start of Ninth Slide -->
+        <div class="slide">
+            <img src="image2/bhutan.png" alt="Slide 2">
+            <div class="slide-content">
+              <h2>Bhutan</h2>
+              <a href="#" class="view-package">View Package</a>
+              <p style="color: white;">15 Tour Package</p>
+            </div>
+          </div>
+          <!-- End of Ninth Slide -->
+          <!-- Start of Tenth Slide -->
+        <div class="slide">
+            <img src="image2/srilangka.png" alt="Slide 2">
+            <div class="slide-content">
+              <h2>Sri Lanka</h2>
+              <a href="#" class="view-package">View Package</a>
+              <p style="color: white;">10 Tour Package</p>
+            </div>
+          </div>
+          <!-- End of Tenth Slide -->
+      </div>
+    </div>
+     <!--  End ofTop Trending International Holiday Destinations-->
+     <br><br><br>
+
+      <!--  Start of Top Trending International Holiday Destinations-->
+    <h1 style="margin-right: 790px;">Trending Tour Package Indian Destination</h1>
+    <div class="slideshow-container">
+      <div class="slide-wrapper">
+        <!--Start of First Slide -->
+        <div class="slide">
+          <img src="image3/gujrat.png" alt="Slide 1">
+          <div class="slide-content">
+            <h2>Gujrat Classical Tour</h2>
+            <a href="#" class="view-package">View Package</a>
+            <p style="color: white;">12 Night 13 Days</p>
+          </div>
+        </div>
+        <!-- End of First Slide -->
+        <!-- Start of Second Slide -->
+        <div class="slide">
+          <img src="image3/kaziranga.png" alt="Slide 2">
+          <div class="slide-content">
+            <h2>Kaziranga Tour With Meghalaya</h2>
+            <a href="#" class="view-package">View Package</a>
+            <p style="color: white;">6 Night 7 Days</p>
+          </div>
+        </div>
+        <!-- End of Second Slide -->
+        <!-- Start of Third Slide -->
+        <div class="slide">
+            <img src="image3/golden.png" alt="Slide 2">
+            <div class="slide-content">
+              <h2>Golden Triangle Tour</h2>
+              <a href="#" class="view-package">View Package</a>
+              <p style="color: white;">8 Night 9 Days</p>
+            </div>
+          </div>
+          <!-- End of Third Slide -->
+          <!-- Start of Fourth Slide -->
+        <div class="slide">
+            <img src="image3/kashmir.png" alt="Slide 2">
+            <div class="slide-content">
+              <h2>Kashmir Tour Package</h2>
+              <a href="#" class="view-package">View Package</a>
+              <p style="color: white;">5 Night 6 Days</p>
+            </div>
+          </div>
+          <!-- End of Fourth Slide -->
+          <!-- Start of Fith Slide -->
+        <div class="slide">
+            <img src="image3/classic.png" alt="Slide 2">
+            <div class="slide-content">
+              <h2>Classic India Tour</h2>
+              <a href="#" class="view-package">View Package</a>
+              <p style="color: white;">11 Night 12 Days</p>
+            </div>
+          </div>
+          <!-- End of Fifth Slide -->
+      </div>
+    </div>
+     <!--  End ofTop Trending International Holiday Destinations-->
+     <br><br><br>
+
+      <!--  Start of Top Trending International Holiday Destinations-->
+    <h1>Trending Tour Package International Destination</h1>
+    <div class="slideshow-container">
+      <div class="slide-wrapper">
+        <!--Start of First Slide -->
+        <div class="slide">
+          <img src="image4/Evarest.png" alt="Slide 1">
+          <div class="slide-content">
+            <h2>Evarest Base Camp Trek</h2>
+            <a href="#" class="view-package">View Package</a>
+            <p style="color: white;">15 Night 16 Days</p>
+          </div>
+        </div>
+        <!-- End of First Slide -->
+        <!-- Start of Second Slide -->
+        <div class="slide">
+          <img src="image4/srilankafest.png" alt="Slide 2">
+          <div class="slide-content">
+            <h2>Best of Sri Lanka </h2>
+            <a href="#" class="view-package">View Package</a>
+            <p style="color: white;">6 Night 7 Days</p>
+          </div>
+        </div>
+        <!-- End of Second Slide -->
+        <!-- Start of Third Slide -->
+        <div class="slide">
+            <img src="image4/annapurna.png" alt="Slide 2">
+            <div class="slide-content">
+              <h2>Annapurna Circuit Trek Nepal</h2>
+              <a href="#" class="view-package">View Package</a>
+              <p style="color: white;">15 Night 16 Days</p>
+            </div>
+          </div>
+          <!-- End of Third Slide -->
+          <!-- Start of Fourth Slide -->
+        <div class="slide">
+            <img src="image4/paro.png" alt="Slide 2">
+            <div class="slide-content">
+              <h2>Paro Tshechu Festible Tour</h2>
+              <a href="#" class="view-package">View Package</a>
+              <p style="color: white;">7 Night 8 Days</p>
+            </div>
+          </div>
+          <!-- End of Fourth Slide -->
+          <!-- Start of Fith Slide -->
+        <div class="slide">
+            <img src="image4/srilankasci.png" alt="Slide 2">
+            <div class="slide-content">
+              <h2>Scienc Sri Lanka Tour</h2>
+              <a href="#" class="view-package">View Package</a>
+              <p style="color: white;">9 Night 10 Days</p>
+            </div>
+          </div>
+          <!-- End of Fifth Slide -->
+      </div>
+    </div>
+     <!--  End ofTop Trending International Holiday Destinations-->
+
+     <!-- Start of themes code -->
+     <br><br><br>
+     <h1 style="margin-right: 1025px;">Themes You Can Explore</h1>
+     <div class="box" style="position: relative; top:19px;">
+    <img class="imgtheme1" style="position: relative; left: 0px; top: 15px;"  src="image5/adventure-removebg-preview.png" alt="Image 1">
+    <a href="" class="caption" style="position: relative; top: 25px; right: px;">ADVENTURE</a>
+</div>
+
+<div class="box" >
+    <img class="imgtheme2" style="position: relative; top: 15px; left: 25px;" src="image5/beach-removebg-preview.png" alt="Image 2">
+    <a href="" class="caption" style="position: relative; top: 45px; right: 50px;">BEACH</a>
+</div>
+
+<div class="box" style="position: relative; top:19px;">
+    <img class="imgtheme3" style="position: relative; top: 25px;left: 10px; height: 100px;"  src="image5/mountain-removebg-preview.png" alt="Image 3">
+    <a href="" class="caption" style="position: relative; top: 25px;">HILLSTATION</a>
+</div>
+
+<div class="box">
+    <img class="imgtheme4" style="position: relative;left: 50px; top: 15px;"  src="image5/namaste-removebg-preview.png" alt="Image 4">
+    <a href="" class="caption" style="position: relative; top: 45px; right: 47.5px;">PILGRIMAGE</a>
+</div>
+
+<div class="box">
+    <img class="imgtheme5" style="position: relative;left: 45px; top: 25px;"  src="image5/taj-removebg-preview.png" alt="Image 5">
+    <a href="" class="caption" style="position: relative; top: 45px; right: 47.5px;">HERITAGE</a>
+</div>
+
+<div class="box" style="position: relative; bottom:10px;">
+    <img class="imgtheme6" style="position: relative; left: 45px; top: 30px;"  src="image5/tiger-removebg-preview.png" alt="Image 6">
+    <a href="" class="caption" style="position: relative; top: 55px; right: 47.5px;">WILDLIFE</a>
+</div>
+<!-- End of theme code -->
+<br><br><br><br>
+
+<img class="imageindia" src="image6/india.png" alt="india">
+
+<aside class="aside1" >
+  <h2 style="color: rgb(255, 255, 255); position: relative; right: 115px;">Overview</h2>
+  <h1 style="width: 500px; position: relative; right: 90px;">About Incredible India</h1>
+  <p>Interesting and Intriguing, India offers incredible holiday experiences through its cultural, topography, and wildlife diversity. With these amazing and unique experiences, this south Asian country conveniently finds its way into the world tourism map as one of the finest destinations for a holistic vacation.
+
+    India establishes its identity as the country of architectural masterpieces, making it an ideal travel destination to plan a heritage tour in the world. While Taj Mahal makes for the major draw on an India tour, there are a plethora of monuments and edifices in every India travel guide displaying the fine architecture and grandiose of different eras in the country.
+    
+    The diverse Indian topography adorned with the impressive Himalayas; long stretches of coastline; expansive hot, cold and white salt deserts; dense forests; alpine meadows and lakes; and scenic waterfalls pique the tourists’ interest.
+    
+    </p>
+  </aside>
+  <aside class="aside2" >
+    <h1 style="color: tomato; width: 200px; position: relative; bottom: 30px;">Quick Links</h1>
+<a  class="asidea" href="">Kumbh Mela Haridwar</a>
+<br><br>
+<a class="asidea" href="">Peak Climbing In India</a>
+<br><br>
+<a class="asidea" href="">Buddhism In India</a>
+<br><br>
+<a class="asidea" href="">Yoga And Meditation</a>
+<br><br>
+<a class="asidea" href="">Fair And Festivals In India</a>
+<br><br>
+<a class="asidea" href="">Maps Of India</a>
+      </p>
+    </aside>
+    <br><br><br>
+    <h1 style="position: relative; right: 220px;">Why Choose Us?</h1>
+    <p style="color: white; position: relative; right: 330px;">More Than 20 Years Of Experience, Variety Of Tour Packages, Best Deals And Personalised Services.</p>
+    <aside class="aside3">
+      <h1>Experience</h1>
+      <p style="color: white;">Our dedicated travel team diligently works round-the-clock to design the best travel experiences for the customers. The skilled team spends considerable amounts of time ideating tour packages that guarantee to make travelling with us an experience like no other. We select the finest hotels in every category, boast an excellent personal fleet of vehicles for transportation.</p>
+    </aside>
+    <aside class="aside4">
+      <h1 style="width: 500px; position: relative; right: 45px;">Positive Customer Feedback</h1>
+      <p style="color: white;">We're truly humbled to have received volumes of positive customer feedback for our services. This appreciation from our prestigious clients is more valuable than any award for us. As a customer-driven travel company, our priority has always been their satisfaction. Therefore, our dedicated team of experts endeavours to achieve the goal of making our customers happy.</p>
+    </aside>
+    <aside class="aside5">
+      <h1 style="width: 500px; position: relative; right: 165px;">Recognition</h1>
+      <p style="color: white;">We are proud to be accredited by major tour and travel associations in India and world like IATA, IATO, TAAI, IMF, MOT (Ministry of Tourism, Govt of India), and TOFT. It is an honour for us to be able to be a part of crucial initiatives towards safeguarding animal rights, protection of endangered species, and responsible mountaineering and trekking ventures.</p>
+    </aside>
+      <footer>
+        <div class="footer-section">
+           <span class="footer-span1">
+            <a class="footer-span2-a">LEGAL POLICY</a>
+           <a href="#" class="span1-link">Terms & Conditions</a>
+           <a href="#" class="span1-link">Disclaimer</a>
+           <a href="#" class="span1-link">Privacy Policy</a>
+           <a href="#" class="span1-link">We are Hiring</a>
+           <a href="#" class="span1-link">Share Your Travel Experience</a>
+           </span>
+           <span class="footer-span2">
+            <a class="footer-span1-a">IN THE MAIN SECTION</a>
+            <a href="" class="span2-link">Package Tours</a>
+            <a href="" class="span2-link">Chardham Yatra</a>
+            <a href="" class="span2-link">Fixed Departure Tours</a>
+            <a href="" class="span2-link">Top Tourist Attractions of India</a>
+            <a href="" class="span2-link">States of India</a>
+            <a href="" class="span2-link">Best Hotel Chains in India</a>
+            <a href="" class="span2-link">Top Travel Destinations</a>
+            <a href="" class="span2-link">Corporate Tour</a>
+            <a href="" class="span2-link">Book A Hotel</a>
+            <a href="" class="span2-link">Rent A Car</a>
+            <a href="" class="span2-link">Air Tickets</a>
+            <a href="" class="span2-link">Company Profile</a>
+            <a href="" class="span2-link">Testimonials</a>
+            <a href="" class="span2-link">Contact Us</a>
+            <a href="" class="span2-link">Blog</a>
+            <a href="" class="span2-link">Kumbh Mela</a>
+           </span>
+           <span class="footer-span3">
+            <a class="footer-span3-a">SOCIAL MEDIA</a>
+            <a href="#" class="span3-link">Facebook</a>
+            <a href="#" class="span3-link">Twitter</a>
+            <a href="#" class="span3-link">Instagram</a>
+            <a href="#" class="span3-link">Linkedin</a>
+            <a href="#" class="span3-link">Twitter</a>
+            <a href="#" class="span3-link">Youtube</a>
+           </span>
+    </footer>
+    <span class="span4">
+     info@taketrip.com
+     </span>
+     <span class="span5">+91 7908924545</span>
+     <span class="span7">033 24546464</span>
+    <span style="color: white; position: relative; bottom: 60px; right: 180px;">&copy; 2023 Taketrip Pvt.Ltd All rights reserved.</span>
+    <br>
+    <span style="color: white; position: relative; bottom: 30px;">Website Design and Development by Rebooters</span>
+    
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="taketriploging.css">
+  <title>Login Form</title>
+</head>
+<body>
+  <header><a href="taketrip.html"><img class="logo" src="logo.png" alt="logo image"></a>
+    <nav>
+        <ul>
+            <li class="home"><a href="taketrip.html">Home</a></li>
+            <!-- this is tour destination statr html code -->
+            <li class="dropdown">
+                <a>Tour Destinations</a>
+                <div class="dropdown-content">
+                    <a href="northindia.html">North India</a>
+                    <a href="southindia.html">South India</a>
+                    <a href="eastindia.html">East India</a>
+                    <a href="westindia.html">West India</a>
+                    <a href="centralindia.html">Central India</a>
+                    <a href="norteastindia.html">North East India</a>
+                    <a href="unionteratory.html">Union Teratory</a>
+                </div>
+            </li>
+            <!-- tour destination code end -->
+            <!-- this is tour package start code -->
+            <li class="package">
+                <a>Tour Packages</a>
+                <div class="dropdown-package">
+                    <a href="wildlife.html">Wildlife</a>
+                    <a href="">Adventure</a>
+                    <a href="">Honeymoon</a>
+                    <a href="">Beach</a>
+                    <a href="">Pilgrimage</a>
+                    <a href="">Hill Station</a>
+                    <a href="">Heritage Tours</a>
+                    <a href="">Ayurveda Tours</a>
+                    <a href="">Cultural</a>
+                    <a href="">Special Interest</a>
+                    <a style="color: rgb(255, 197, 176); font-size: 15px; background-color:rgba(80, 80, 80, 0.6)" href="">More packages....</a>
+                </div>
+            </li>
+            <!-- tour package code end -->
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="customerreview.html">Customer Reviews</a></li>
+            <!-- this is my account code start -->
+            <li class="myaccount">
+                <a>My account</a>
+                <div class="dropdown-myaccount">
+                    <a href="taketriplogin.html">Login</a>
+                    <a href="taketripsignup.html">Signup</a>
+                </div>
+            </li>
+            <!-- my account code end -->
+        </ul>
+    </nav>
+</header>
+  <div class="container">
+    <h2>Login Form</h2>
+    <form >
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <p class="premember">Remember me</p>
+      <p class="pforgot">Forgot password</p>
+      <button onclick="login()">Login</button>
+      <p class="signupp"> You Don't Have An Account?</p><a class="loginhref" href="taketripsignup.html">Register</a>
+    </form>
+  </div>
+
+  <script>
+    function login() {
+      var username = document.getElementById("email").value;
+      var password = document.getElementById("password").value;
+
+      // Perform login validation logic here
+      // For simplicity, let's assume successful login if both fields are non-empty
+
+      if (username && password) {
+        alert("Login successful!");
+        // Redirect to another page or perform other actions
+      } else {
+        alert("Invalid username or password. Please try again.");
+      }
+    }
+  </script>
+</body>
+</html>

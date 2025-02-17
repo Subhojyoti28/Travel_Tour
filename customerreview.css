@@ -1,0 +1,346 @@
+body{
+  text-align: center;
+  background-color: rgb(0, 0, 0) 
+}
+.fixed{
+  height: 880px;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1540px;
+  z-index: -1;
+}
+
+.logo{
+height: 58px;
+position: fixed;
+top: 2px;
+left: 0;
+width: 10%;
+z-index: -1;
+margin-top: 6px;
+margin-left: px;
+background-color: black;
+}
+
+.header-customer {
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  z-index: +1;
+  top: 8px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 200px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+nav ul li a:hover {
+  border-radius: 10px;
+  background-color: rgba(86, 86, 86, 0.856);
+  color: white;
+  border: white solid 1px;
+}
+
+/* this is for drop down tour destination */
+.dropdown-content {
+display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.922);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.736);
+  z-index: 1;
+  border-radius: 10px;
+  margin-top: 19.5px;
+  margin-left: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown:hover {
+cursor: pointer;
+}
+
+.dropdown-content a {
+color: #ffffff;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {
+background-color: rgba(86, 86, 86, 0.856);
+border-radius: 10px;
+}
+
+/* this is for drop down tour destination */
+.dropdown-package {
+display: none;
+position: absolute;
+background-color: rgba(0, 0, 0, 0.922);
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.736);
+z-index: 1;
+border-radius: 10px;
+margin-top: 19.5px;
+margin-left: 20px;
+}
+
+.package:hover .dropdown-package {
+display: block;
+}
+
+.package:hover {
+cursor: pointer;
+}
+
+.dropdown-package a {
+color: #ffffff;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-package a:hover {
+background-color: rgba(86, 86, 86, 0.5);
+border-radius: 10px;
+}
+
+/* this is for dropdown myaccount */
+.dropdown-myaccount {
+display: none;
+position: absolute;
+background-color: rgba(0, 0, 0, 0.922);
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.736);
+z-index: 1;
+border-radius: 10px;
+margin-top: 19.5px;
+margin-left: 20px;
+}
+
+.myaccount:hover .dropdown-myaccount {
+display: block;
+}
+
+.myaccount:hover {
+cursor: pointer;
+}
+
+.dropdown-myaccount a {
+color: #ffffff;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-myaccount a:hover {
+background-color: rgba(86, 86, 86, 0.5);
+border-radius: 10px;
+}
+
+/* Custom styles for customer reviews */
+.container-customer-review {
+border: 1px solid #ddd;
+padding: 10px;
+margin: 10px;
+color: white;
+position: relative;
+top: 100px;
+left: 350px;
+max-width: 700px;
+}
+
+.img-container-customer {
+text-align: center;
+color: white;
+}
+
+.review-item {
+border: 1px solid #ccc;
+padding: 10px;
+margin: 10px;
+color: white;
+}
+
+form {
+display: flex;
+flex-direction: column;
+max-width: 300px;
+margin: 0 auto;
+color: white;
+}
+
+form label {
+margin-top: 10px;
+}
+
+form input,
+form textarea {
+margin-bottom: 10px;
+color: rgb(0, 0, 0);
+}
+
+form button {
+padding: 10px 20px;
+background-color: #4CAF50;
+color: white;
+border: none;
+cursor: pointer;
+color: white;
+}
+
+form button:hover {
+background-color: #45a049;
+}
+          /* footer star */
+          footer {
+            background-color: rgb(75, 75, 75);
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            left: 60px;
+            height: 600px;
+            width: 1340px;
+        }
+        /* footer span */
+        .footer-span1{
+          position: relative;
+          left: 600px;
+          top: 75px;
+        }
+        
+        .footer-span2{
+          position: relative;
+          bottom: 63px;
+          left: 100px;
+        
+        }
+        .footer-span3{
+          position: relative;
+          left: 1100px;
+          bottom: 505px;
+        }
+        /* footer span end */
+        
+        /* span1 link start */
+        .span1-link{
+            margin-bottom: 10px;
+            display: block;
+            text-decoration: none;
+            text-align: left;
+            font-size: 15px;
+            color: #ffffff;
+            position: relative;
+            top: 11px;
+            transition: transform 0.3s ease;
+        }
+        .span1-link:hover{
+          transform: translate(20px);
+            color: tomato
+        }
+        /* span1 link end */
+        
+        /* span2 link start */
+        .span2-link{
+          margin-bottom: 10px;
+          display: block;
+          text-decoration: none;
+          text-align: left;
+          font-size: 15px;
+          color: #ffffff;
+          position: relative;
+          bottom: 13px;
+          transition: transform 0.3s ease;
+          
+        }
+        .span2-link:hover{
+          transform: translate(20px);
+            color: tomato
+        }
+        /* span2 link end */
+        
+        /* span3 link start */
+        .span3-link {
+          display: block;
+          margin-bottom: 10px;
+          text-decoration: none;
+          text-align: left;
+          font-size: 15px;
+          color: #ffffff;
+          position: relative;
+          bottom: 35px;
+          transition: transform 0.3s ease;
+        }
+        .span3-link:hover{
+          transform: translate(20px);
+            color: tomato
+        }
+        /* span3 link end */
+        
+        /* this is all span heading a tag start */
+        .footer-span2-a{
+          color: white; 
+          font-size: 20px;
+          position: relative;
+          right: 37px;
+          bottom: 20px;
+        }
+        .footer-span1-a{
+          color: white; 
+          font-size: 20px;
+          position: relative;
+          bottom: 43px;
+        }
+        .footer-span3-a{
+          color: white; 
+          font-size: 20px;
+          position: relative;
+          right: 38px;
+          bottom: 65px;
+        }
+        /* this is all span heading a tag end */
+        
+        .span4{
+          color: white;
+          position: relative;
+          bottom: 200px;
+          left: 100px;
+        }
+        .span5{
+          color: white;
+          position: relative;
+          bottom: 200px;
+          left: 300px;
+        }
+        .span7{
+          color: white;
+          position: relative;
+          bottom: 200px;
+          left: 500px;
+        }
+/* end of footer */

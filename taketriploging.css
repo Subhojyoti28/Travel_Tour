@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(signup.png);
+    background-size: 1540px 740px;
+    background-repeat: no-repeat;
+
+  }
+
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    position: relative;
+    top: 150px;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .premember{
+    color: white;
+    font-size: 15px;
+    position: relative;
+    right: 90px;
+    top: 7px;
+  }
+  .premember:hover{
+    color: black;
+    cursor: pointer;
+  }
+  .pforgot{
+    position: relative;
+    left: 100px;
+    bottom: 25px;
+    color: white;
+    font-size: 15px;
+  }
+  .pforgot:hover{
+    color: black;
+    cursor: pointer;
+  }
+
+  .container h2 {
+    text-align: center;
+    color: white;
+  }
+
+  .container input[type="email"],
+  .container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  .container button {
+    width: 322px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    bottom: 20px;
+    font-size: 15px;
+
+  }
+
+  .container button:hover {
+    background-color: rgba(0, 128, 0, 0.819);
+  }
+  form{
+    padding: 50px;
+
+  }
+  .signupp{
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    position: relative;
+    right: 40px;
+  }
+  .loginhref{
+    color: white;
+    position: relative;
+    left: 95px;
+    bottom: 33px;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  .loginhref:hover{
+    color: rgb(0, 0, 0)
+  
+  }
+  
+/* Add your custom CSS styles here */
+body{
+  text-align: center;
+  background-color: black 
+}
+.fixed{
+  height: 880px;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1540px;
+  z-index: -1;
+}
+.logo{
+  height: 58px;
+  position: fixed;
+  top: 2px;
+  left: 0;
+  width: 10%;
+  z-index: -1;
+  margin-top: 6px;
+  margin-left: px;
+  background-color: black;
+}
+header {
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  z-index: +1;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 200px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+nav ul li a:hover {
+border-radius: 10px;
+background-color: rgba(86, 86, 86, 0.856);
+color: white;
+border: white solid 1px;
+
+}
+/* this is for drop down tour destination*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.922);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.736);
+  z-index: 1;
+  border-radius: 10px;
+  margin-top: 19.5px;
+  margin-left: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover{
+  cursor: pointer;
+}
+.dropdown-content a {
+  color: #ffffff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(86, 86, 86, 0.856);
+  border-radius: 10px;
+
+}
+/* this is for drop down tour destination*/
+.dropdown-package {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.922);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.736);
+  z-index: 1;
+  border-radius: 10px;
+  margin-top: 19.5px;
+  margin-left: 20px;
+}
+.package:hover .dropdown-package {
+  display: block;
+}
+.package:hover{
+  cursor: pointer;
+}
+.dropdown-package a {
+  color: #ffffff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-package a:hover {
+  background-color: rgba(86, 86, 86, 0.5);
+  border-radius: 10px;
+}
+/* this is for dropdown myaccount */
+.dropdown-myaccount{
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.922);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.736);
+  z-index: 1;
+  border-radius: 10px;
+  margin-top: 19.5px;
+  margin-left: 20px;
+}
+
+.myaccount:hover .dropdown-myaccount {
+  display: block;
+}
+.myaccount:hover{
+  cursor: pointer;
+}
+.dropdown-myaccount a {
+  color: #ffffff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-myaccount a:hover {
+  background-color: rgba(86, 86, 86, 0.5);
+  border-radius: 10px;
+}
