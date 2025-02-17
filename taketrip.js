@@ -46,6 +46,7 @@
   var bannerDots = document.getElementsByClassName('banner-dot');
   var currentIndex = 0;
   var intervalId;
+//   testing
   
     function showNextImage() {
       bannerImages[currentIndex].classList.remove('active'); // Hide current image
